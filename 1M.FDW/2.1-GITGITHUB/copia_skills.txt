@@ -1,5 +1,7 @@
 - Unix
 - Bash
 - git
+- TCP/IP
+- DNS
 - HTML
 - CSS
