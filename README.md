@@ -1,6 +1,6 @@
-# Repositório de estudates #
+# Repositório do curso Trybe #
 
-Este repositório armazena os códigos e scripts fornecidos durante as aulas ao vivo pelos especialistas da Trybe.
+Este repositório armazena exercícios feitos no curso.
 
 ## Começando
 
