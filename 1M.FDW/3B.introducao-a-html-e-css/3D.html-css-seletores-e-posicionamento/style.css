@@ -1,8 +1,8 @@
-/* .margin2{
-    margin: hidden;
-    border: 30px black solid;
-    height: 300px;
-} */
+/* margin2 - Inculuido por mim */
+.margin2{
+    margin-right: hidden;
+    float: left;
+}
 .caixa {
     color: white;
     display: inline-block;
@@ -18,7 +18,7 @@
   
   /* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
   .padding {
-  padding: 30px;
+  padding: 40px;
   }
   
   /* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
@@ -29,5 +29,5 @@
   
   /* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
   .border {
-    border: 30px solid black;
+    border: 5px solid black;
   }
