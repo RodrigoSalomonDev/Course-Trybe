@@ -1,0 +1,39 @@
+h1{
+    font-family: sans-serif;
+    text-decoration: underline red;
+    color: burlywood;
+  }
+
+  p{
+    font-weight: 600;
+    font-size: 3em;
+    color: burlywood;
+  }
+
+  body{
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  #pergunta_cor{
+    font-style: italic;
+    text-align: center;
+  }
+
+  #lista-de-cores{
+    line-height: 50px;
+    text-align: center;
+    color: whitesmoke;
+  }
+
+  #verde-lista{
+    background-color: rgb(10, 104, 26);
+  }
+
+  #vermelho-lista{
+    background-color: rgb(255, 30, 0);
+  }
+
+  #azul-lista{
+    background-color: rgb(0, 60, 255);
+  }
