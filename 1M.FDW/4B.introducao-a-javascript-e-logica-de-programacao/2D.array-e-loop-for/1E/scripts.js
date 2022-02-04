@@ -17,13 +17,27 @@
 // menu.push('Page')
 // console.log(menu);
 
-let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+// let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
 
-for(let index = 0; index < groceryList.length; index += 1){
-    // index = index.indexOf(groceryList)
-    console.log(groceryList[index])
-}
+// for(let index = 0; index < groceryList.length; index += 1){
+//     // index = index.indexOf(groceryList)
+//     console.log(groceryList[index])
+// }
     
+// let names = ['João', 'Maria', 'Antônio', 'Margarida'];
 
+// for(let pessoas of names){
+//     console.log(pessoas)
+// }
+
+// for (i = 0; i < names.length; i += 1){
+//     console.log(names[i])
+// }
+
+
+let word = 'Hello';
+for (let letter of word) {
+  console.log(letter);
+}
 
 
