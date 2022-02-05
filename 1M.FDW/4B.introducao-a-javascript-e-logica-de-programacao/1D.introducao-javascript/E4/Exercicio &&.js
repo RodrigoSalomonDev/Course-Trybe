@@ -27,7 +27,7 @@
 // console.log(false && true); // false
 // console.log(false && false); // false
 
-const currentHour = 14;
+const currentHour = 19.40;
 let message = "";
 
     if (currentHour >= 22){
