@@ -7,7 +7,7 @@
 //   console.log("Ei, eu não pedi isso!");
 // }
 
-let weekDay = "sábado"
+let weekDay = "quinta-feira"
 
   if (weekDay === "segunda-feira" || weekDay === "terça-feira" ||     weekDay === "quarta-feira" || weekDay === "quinta-feira" || weekDay === "sexta-feira"){
     console.log("Oba, mais um dia de aprendizado na Trybe >:D")
