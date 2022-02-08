@@ -223,15 +223,36 @@
 
 let salarioBruto = 3000.00;
 let salarioBase;
-let INSS;
 let IR;
+let INSS;
 
-if (salarioBruto <= 5189.82 && salarioBruto >= 2594.93){
-  salarioBase = salarioBruto - (salarioBruto * 11) / 100;
-  // console.log(INSS)
+  if (salarioBruto <= 1556.94){
+    salarioBase = salarioBruto - (salarioBruto * 0.08);
 }
-if (salarioBase >= 1903.99 && salarioBase <= 2826.65){
-  IR = salarioBase - (salarioBase * 7,5) / 100;
-  console.log(IR)
-}
+  if (salarioBruto <= 2594.92){
+    salarioBase = salarioBruto - (salarioBruto * 0.09);
+  }
+  if (salarioBruto <= 5189.82){
+    salarioBase = salarioBruto - (salarioBruto * 0.11);
+  }
+  if (salarioBruto > 5189.82){
+    salarioBase = salarioBruto - 570.88;
+  }
 
+
+  if (salarioBase <= 1903.98){
+    IR = 0;
+  }
+  if (salarioBase <= 2826.65){
+    IR = (salarioBase * 0.075) - 142.80;
+  }
+  if (salarioBase <= 3751.05){
+    IR = (salarioBase * 0.15) - 354.80;
+  }
+  if (salarioBase <= 4664.68){
+    IR = (salarioBase * 0.225) - 636.13;
+  } else {
+    IR = (salarioBase *0.275) - 869,36;
+  }
+
+    console.log(salarioBase - IR)
