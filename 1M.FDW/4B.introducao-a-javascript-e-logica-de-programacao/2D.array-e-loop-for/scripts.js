@@ -15,3 +15,5 @@ for (i =0; i < numbers.length; i += 1){
 }
 console.log(somaNumeros)
 
+
+
