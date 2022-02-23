@@ -1,44 +1,18 @@
 <!DOCTYPE html>
 <html>
+  
+  <head>
+    <title>5.1 Exercicios</title>
+    <link rel="stylesheet" href="ExercicioConteudo5.1.css">
+  </head>
+
   <body>
     <header>
       <h2 id="page-title">Título</h2>
       <p class="classeParagrafo" id="paragraph">Dê uma cor para este parágrafo!</p>
       <h4 id="subtitle">Subtítulo</h4>
-      <p class="classeParagrafo" id="second-paragraph">Segundo parágrafo!</p>
+      <span class="classeParagrafo" id="second-paragraph">Segundo parágrafo!</span>
     </header>
-    <script>
-      const paragraph = document.getElementById("paragraph");
-      paragraph.style.color = "red";
-      paragraph.innerText = "O melhor filme de todos os tempos!";
-
-      let title = document.getElementById("page-title")
-      title.innerText = "Os Goonies";
-      title.style.color = "yellow";
-
-      let subtitle = document.getElementById("subtitle")
-      subtitle.innerText = "Sinopse";
-      subtitle.style.color = "yellow";
-
-      let secondparagraph = document.getElementById("second-paragraph")
-      secondparagraph.style.color = "red";
-      secondparagraph.innerText = "Um grupo de jovens encontram um misterioso mapa do tesouro e começam a seguir as pistas, entrando em um fabuloso mundo subterrâneo de passagens secretas, perigosas armadilhas e um antigo navio pirata que esconde moedas de ouro."
-      
-      // let classeParagrafos = document.getElementsByClassName("classeParagrafo");
-      // function mudaCorEEstilo(cor, estilo){
-      // for (const i in classeParagrafos) {
-      //     classeParagrafos[i].style.fontStyle = estilo;
-      //     classeParagrafos[i].style.color = cor;
-      //   }
-      // }
-      // mudaCorEEstilo('green', 'italic')
-
-      let cuidadoMudaACor = document.getElementsByTagName('h4');
-      cuidadoMudaACor[0].style.color = 'orange';
-
-
-        
-      
-    </script>
+   <script src="ExercicioConteudo5.1.js"></script>
   </body>
 </html>
