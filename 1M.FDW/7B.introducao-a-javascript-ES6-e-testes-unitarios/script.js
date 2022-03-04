@@ -30,13 +30,18 @@
 // favoriteTechnology = 'Facial recognition';
 // console.log(favoriteTechnology); // Facial recognition
 
-const userInfo = {
-    name: 'Cláudio',
-    id: '5489-2',
-    email: 'claudio@email.com',
-  };
+// const userInfo = {
+//     name: 'Cláudio',
+//     id: '5489-2',
+//     email: 'claudio@email.com',
+//   };
   
-  userInfo.sexo = 'masculino';
+//   userInfo.sexo = 'masculino';
   
-  console.log(userInfo); // { name: 'João', id: '5489-2', email: 'claudio@email.com' }
+//   console.log(userInfo); // { name: 'João', id: '5489-2', email: 'claudio@email.com' }
 
+function hello() {
+    let s = ["Hello World!", "Olá Mundo!"];
+    console.log(s[0]);
+  }
+  console.log(s[0]);
