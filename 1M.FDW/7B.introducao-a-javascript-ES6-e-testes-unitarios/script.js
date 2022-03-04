@@ -40,8 +40,3 @@
   
 //   console.log(userInfo); // { name: 'João', id: '5489-2', email: 'claudio@email.com' }
 
-function hello() {
-    let s = ["Hello World!", "Olá Mundo!"];
-    console.log(s[0]);
-  }
-  console.log(s[0]);
