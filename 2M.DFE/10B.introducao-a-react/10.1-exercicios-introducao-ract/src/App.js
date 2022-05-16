@@ -13,9 +13,9 @@ const Task = (value) => {
 function App() {
   return (
     <div className="App">
-      { compromissos.map((xablau) => Task(xablau)) }
+      <ol>{ compromissos.map((xablau) => Task(xablau)) }</ol>
       <Header />
-      <Content />
+     
     </div>
   );
 }

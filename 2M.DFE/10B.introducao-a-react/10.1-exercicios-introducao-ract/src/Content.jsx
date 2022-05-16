@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 
 const conteudos = [
   {
@@ -32,9 +32,12 @@ const Task = (value) => {
 class Content extends React.Component {
   render() {
     return (
-    { conteudos.conteudo.map((xablau) => Task(xablau)) }
+    { conteudos.map((xablau) => Task(xablau)) }
     )
   }
 }
 
 export default Content;
+ */
+
+//Parei 35min no vídeo do gabarito.
