@@ -2,15 +2,16 @@ import React from "react";
 
 class Card extends React.Component {
   render(){
+    
     return(
       <article>
-        <h3>Módulo 1</h3>
-        <h2>Fundamentos</h2>
+        <img src={this.props.imagem} alt="" />
+        <h3>{this.props.modulo}</h3>
+        <h2>{this.props.nome}</h2>
+        
       </article>
     );
   }
 }
 
 export default Card;
-
-//Parei em 47:00 da aula 10.02.
