@@ -17,7 +17,8 @@ class App extends React.Component {
         <section>
           {
           contents.map((item) => {
-            return <Card modulo={item.name} nome={item.title} imagem={item.imageUrl}/>
+            // return <Card modulo={item.name} nome={item.title} imagem={item.imageUrl}/>
+            return <Card key={item.id} PropriedadesData={item}/>
           } )
           /* <Card modulo={1} titulo='Fundamentos'/>
           <Card modulo={2} titulo='Front-End'/>
