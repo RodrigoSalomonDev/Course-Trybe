@@ -36,6 +36,7 @@ class App extends React.Component {
           
           <Greeting name="Rodrigo" lastName="Salomon" />
         </section>
+        <Image source="logo512.png" alternativeText="Cute cat staring" />
         <Image source={ImagemGato} alternativeText="Cute cat staring" />
       </div>
     );
