@@ -8,6 +8,18 @@ body {
   text-align: left;
 }
 
+.imagemGato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+  max-width: 50%;
+  /* border-image: url("./Components/Exercícios/imgs/catExercicio.jpg") 150 round; */
+  /* border: 8px solid rgb(0, 255, 47); */
+  /* width: 100px;
+  height: 100px; */
+}
+
 main {
   display: flex;
   justify-content: center;
