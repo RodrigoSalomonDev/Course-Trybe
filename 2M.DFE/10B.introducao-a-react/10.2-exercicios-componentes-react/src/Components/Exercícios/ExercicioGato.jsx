@@ -1,7 +1,9 @@
 import React from 'react';
 
 class Image extends React.Component {
+  
   render() {
+    // console.log(this.props);
     const { source, alternativeText } = this.props;
     return <img className='imagemGato' src={ source } alt={ alternativeText } />;
   }

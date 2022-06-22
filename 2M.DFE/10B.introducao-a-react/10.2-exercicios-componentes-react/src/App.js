@@ -4,6 +4,7 @@ import contents from "./data";
 import Greeting from "./Components/Exercícios/ExGreeting";
 import ImagemGato from "./Components/Exercícios/imgs/catExercicio.jpg";
 import Image from "./Components/Exercícios/ExercicioGato";
+import Testes from "./Components/Exercícios/testes";
 
 class App extends React.Component {
   sayHello() {
@@ -14,7 +15,26 @@ class App extends React.Component {
   }
 
   render(){
-        console.log(contents);
+        // console.log(contents);
+        // const headphone = {
+        //   id: 102,
+        //   user: "cena@gmail.com",
+        //   product: "Razer Headphone",
+        //   price: {
+        //     value: 99.99,
+        //     currency: "dollars"
+        //   }
+        // };
+    
+        // const energyDrink = {
+        //   id: 77,
+        //   user: "cena@gmail.com",
+        //   product: "Monster 500mL",
+        //   price: {
+        //     value: 9.99,
+        //     currency: "dollars"
+        //   }
+        // };
     return (
       <div>
         {
@@ -33,11 +53,20 @@ class App extends React.Component {
           <Card modulo={2} titulo='Front-End'/>
           <Card modulo={3} titulo='Back-End'/>
           <Card modulo={4} titulo='Ciências da Computação'/> */}
-          
-          <Greeting name="Rodrigo" lastName="Salomon" />
         </section>
-        <Image source="logo512.png" alternativeText="Cute cat staring" />
-        <Image source={ImagemGato} alternativeText="Cute cat staring" />
+        <section>
+          <Greeting name="Rodrigo" lastName="Salomon" />
+          <Image source="logo512.png" alternativeText="Cute cat staring" />
+          <Image source={ImagemGato} alternativeText="Cute cat staring" />
+        </section>
+        <section>
+        
+         
+        
+        {/* <h1> Orders recently created </h1>
+        <Order PropriedadesOrder={headphone}/>
+        <Order PropriedadesOrder={energyDrink}/> */}
+        </section>
       </div>
     );
   }
